@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #68BC49;
+    text-align: center
+}
+.container-fluid {
+    padding: 0
+}
+section {
+    width: 100%;
+    max-width: 414px;
+    margin: 0px auto;
+    margin-bottom: 20px !important;
+    padding: 0px 20px
+}
+h1,
+h3 {
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px
+}
+p {
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px
+}
+
+.light {
+    font-weight: 300
+}
+#logo .brandLogo {
+    max-width: 200px
+}
+
+#offerText h1 {
+    font-size: 24px
+}
+#offerText #topLegal {
+    padding-top: 10px
+}
+#offerText #topLegal p {
+    font-size: 12px
+}
+
+.redeem_timer{
+	display:block;
+	font-size: 3em;
+	font-weight: 500;
+}
+
+.redeem_date {
+	font-size: 1.3em;
+	margin-top: 10px!important;
+}
+.redeem_time {
+	font-size: 1.3em;
+	margin-top: 10px!important;
+}
+.timesUp{
+	font-size: 2.5em;
+	font-weight: 500;
+}
+#timesUp {
+	/*position: absolute;
+	top: 46%;*/
+	width: 100%;
+}
+
+#expiration p {
+    color: #C01200;
+    font-size: 14px;
+    font-weight: 700
+}
+#redeemWarning {
+    color: #929497;
+    font-size: 10px
+}
+
+#progressText span {
+    font-weight: 700
+}
+
+#shareButtons .row {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center
+}
+#shareButtons .centered {
+    float: none;
+    margin: 0 auto
+}
+#shareButtons .button {
+    border-radius: 4px;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 20px;
+    text-decoration: none;
+    width: 70px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    margin: 0px auto
+}
+#shareButtons #facebook .button {
+    background-color: #3B5998;
+    background-image: url("https://storage.googleapis.com/mobivitysmartsms.appspot.com/static/RAF/FacebookIcon.png");
+    background-repeat: no-repeat;
+    background-position: 15% 45%;
+    background-size: 6px;
+    padding-left: 27px;
+    display: block
+}
+#shareButtons #twitter .button {
+    background-color: #55acee;
+    background-image: url("https://storage.googleapis.com/mobivitysmartsms.appspot.com/static/RAF/TwitterIcon.png");
+    background-repeat: no-repeat;
+    background-position: 12% 50%;
+    background-size: 15px;
+    padding-left: 30px;
+    display: block
+}
+#shareButtons #sms .button {
+    background-color: #60B561;
+    background-image: url("https://storage.googleapis.com/mobivitysmartsms.appspot.com/static/RAF/SMSIcon.png");
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-size: 15px;
+    padding-left: 35px;
+    display: block
+}
+#inputContainer {
+    margin: 0px auto;
+    text-align: center
+}
+#inputContainer p {
+    font-size: 18px;
+    padding-bottom: 20px
+}
+#inputContainer input:focus {
+    outline: none
+}
+#inputContainer input[type="text"] {
+    width: 75%;
+    border: none;
+    border: 1px solid #929497;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 7px;
+    font-size: 18px;
+    text-align: center
+}
+
+.btn-thumbs-up {
+    color: #fff; 
+    background-color: #8dc63f; 
+    border-color: #709E40; 
+}
+
+.btn-thumbs-down {
+    color: #fff; 
+    background-color: #d9534f; 
+    border-color: #d43f3a; 
+}
+
+.buttonnotclicked {
+    color: #fff; !important;
+    background-color:#E6E7E8; !important;
+}
+
+#feedback {
+    padding-top: 10px
+}
+
+/*
+#feedback a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    text-align: center
+}
+#feedback #like a {
+    background-color: #8dc63f;
+    background-image: url("../images/up.png");
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+    background-size: 12px;
+    padding-left: 40px;
+    margin-right: -40px
+}
+#feedback #dislike a {
+    background-color: #F2665E;
+    background-image: url("../images/down.png");
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
+    background-size: 12px;
+    padding-left: 40px;
+    margin-left: -40px
+}
+*/
