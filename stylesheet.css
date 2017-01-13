@@ -30,6 +30,7 @@ p {
     margin: 0px;
     padding: 0px
 }
+
 .light {
     font-weight: 300
 }
@@ -72,7 +73,7 @@ p {
 }
 
 #expiration p {
-    color: #68BC49;
+    color: #C01200;
     font-size: 14px;
     font-weight: 700
 }
